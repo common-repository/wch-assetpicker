@@ -1,0 +1,71 @@
+
+
+/* Small Devices, tablets */
+@media only screen and (min-device-width : 320px) {     
+        .ui-dialog {
+            min-width:250px!important;
+        }
+        .ui-dialog-content.ui-widget-content{
+            -webkit-overflow-scrolling: touch !important;
+            overflow: scroll !important;
+        }
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-device-width : 1200px) {
+    
+        .ui-dialog {
+            min-width:610px!important;
+        }
+
+        .ui-dialog-content.ui-widget-content{
+            overflow:hidden!important;
+        }
+    
+}
+
+#pickerDialog{
+    display:none;
+    padding:0;
+}
+#pickerDialog iframe {
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+
+
+
+
+.ui-dialog-titlebar {
+    background: #4178be;
+    font-family: "Helvetica Neue Roman for IBM", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border-radius: none;
+}
+
+.ui-dialog .ui-button{
+    background-color: #4178be;
+    color: #fff;
+    border-color: #4178be;
+}
+.ui-dialog .ui-button .ui-icon-closethick{
+    background-image: url('../images/CloseWindow-16px.svg');
+    background-position: 0;
+}
+
+
+.ui-dialog{
+    padding:0;
+}
+.ui-dialog-content.ui-widget-content{
+    border: none;
+    color:transparent;
+}
+.ui-dialog.ui-corner-all{
+    border-radius: 0;
+}
